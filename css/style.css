@@ -75,52 +75,64 @@ div{
 }
 
 #cabecalhosuco{
-    background: blue;
-    height: 200px;
+    background-color: blue;
+    
     padding: 10px;
     
     display: grid;
 
-    place-items: end center;
+    grid-template-columns: 1fr 4fr;
 
-    grid-template-columns: 1fr 1fr;
+    gap: 0px 100px;
 
 }
 
 #itens_menu{
     
-    height: 100px;
-    width: 200px;
-
+    padding: 0 10px;
     background-color: aqua;
 
-   
+    display: grid;
+    grid-template-columns: 1fr;
+
+    place-items: center end;
+
 }
 
-#menu_informacoes{
+#menu_informacoes ul{
     
-    list-style: none; 
-
+    padding: 10px;
     display: flex;
-
+    
+    list-style: none;
+    
     gap: 10px;
-    flex-wrap: wrap;
     align-items: end;
     justify-content: center;
-
 }
 
+#menu_informacoes li{
+   padding: 10px; 
 
+   width: 80px;
+   height: 80px;
+
+   display: flex;
+
+}
 
 
 
 #logo{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 100px;
+
     background-color: aqua;
     
-    height: 100px;
-    width: 300px;
-    margin: 10px;
-
 }
 
 
