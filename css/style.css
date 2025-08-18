@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#conteudo_principal{
+    
+    height: 100vh;
+    
+    background-color: black;
+    
+    
+    display: none;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    align-items: center;
+    gap: 10px;
+
+}
+
+div{
+    
+    height: 200px;
+    background-color: aqua;
+    padding: 10px;
+    
+
+}
+
+@media (max-width: 800px){
+    #conteudo_principal{
+        
+        grid-template-columns: 1fr;
+        padding: 10px;
+        gap: 10px;
+
+    }
+}
+
+#cabecalho{
+    height: 100px;
+    
+    
+    background-color: rgb(30, 59, 226);
+}
+
+#blocos{
+   
+    background-color: rgb(209, 17, 17);
+     
+    height: 600px;
+    
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+
+    padding: 10px;
+
+    gap: 10px;
+
+    align-items: center;
+}
+
+.bloco1{
+    
+    background-color: blue;
+
+    
+}
+
+
+
