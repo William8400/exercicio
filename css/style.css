@@ -21,7 +21,7 @@
 
 }
 
-div{
+.nivel_agua{
     
     
     background-color: aqua;
@@ -76,43 +76,62 @@ div{
 
 #cabecalhosuco{
     background: blue;
-    height: 200px;
+    
     padding: 10px;
     
     display: grid;
 
+    gap: 0px 100px;
+
     place-items: end center;
 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
 
 }
 
 #itens_menu{
     
-    height: 100px;
-    width: 200px;
+   height: 100px;
+   width: 100%;
+   
+   padding: 10px;
 
-    background-color: aqua;
+   gap: 10px;
 
    
 }
 
-#menu_informacoes{
+#menu_informacoes ul{
     
     list-style: none; 
+    
+
 
     display: flex;
-
     gap: 10px;
     flex-wrap: wrap;
     align-items: end;
-    justify-content: center;
-
+    justify-content: end;
+    
 }
 
+#menu_informacoes li{
 
+    
 
+    font-size: 40px;
 
+    gap: 10px;
+
+    padding: 10px;
+
+    background-color: brown;
+
+    border-radius: 50px;
+
+    
+
+}
 
 #logo{
     background-color: aqua;
